@@ -1,0 +1,16 @@
+{
+  "name": "Channel4 Adblock",
+  "version": "0.1.0",
+  "author": "Oliver Smith",
+  "description": "Remove ad breaks from Channel4",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["content.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.channel4.com/*",
+    "*://*.samba.tv/*"
+  ]
+}
